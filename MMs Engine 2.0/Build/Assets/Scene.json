@@ -1,0 +1,2337 @@
+{
+    "Constraints": [
+        {
+            "Obj1": 33406440,
+            "Obj2": 33545682,
+            "Type": "Cone",
+            "Distance": [
+                5,
+                0,
+                0
+            ]
+        },
+        {
+            "Obj1": 621131148,
+            "Obj2": 621270390,
+            "Type": "Slider",
+            "Distance": [
+                -1.900000,
+                0,
+                0
+            ]
+        },
+        {
+            "Obj1": 179987713,
+            "Obj2": 180126955,
+            "Type": "Hinge",
+            "Axis1": [
+                1,
+                0,
+                0
+            ],
+            "Axis2": [
+                1,
+                0,
+                0
+            ],
+            "Distance": [
+                2.900000,
+                0,
+                0
+            ]
+        },
+        {
+            "Obj1": 1395304396,
+            "Obj2": 1395443638,
+            "Type": "P2P",
+            "Distance": [
+                2.900000,
+                0,
+                0
+            ]
+        }
+    ],
+    "Game Objects": [
+        {
+            "UID": 740074754,
+            "ParentUID": 1019879101,
+            "Name": "StreetEnvironment",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 740283617,
+            "ParentUID": 740074754,
+            "Name": "Sky001_$AssimpFbx$_Translation",
+            "Translation": [
+                18.153732,
+                0,
+                58.960911
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 740422859,
+            "ParentUID": 740283617,
+            "Name": "Sky001_$AssimpFbx$_PreRotation",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                -0.707107,
+                0,
+                0,
+                0.707107
+            ],
+            "Components": []
+        },
+        {
+            "UID": 740562101,
+            "ParentUID": 740422859,
+            "Name": "Sky001_$AssimpFbx$_PostRotation",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                -0.707107,
+                0,
+                0,
+                0.707107
+            ],
+            "Components": []
+        },
+        {
+            "UID": 740701343,
+            "ParentUID": 740562101,
+            "Name": "Sky001",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 740840585,
+            "ParentUID": 740074754,
+            "Name": "Dummy001_$AssimpFbx$_PreRotation",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                -0.707107,
+                0,
+                0,
+                0.707107
+            ],
+            "Components": []
+        },
+        {
+            "UID": 741049448,
+            "ParentUID": 740840585,
+            "Name": "Dummy001_$AssimpFbx$_Rotation",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 741188690,
+            "ParentUID": 741049448,
+            "Name": "Dummy001",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 741327932,
+            "ParentUID": 741188690,
+            "Name": "City_building_004",
+            "Translation": [
+                -41.475891,
+                21.014091,
+                0.000000
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building03_c.dds",
+                    "UID": 1369917240
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_004.mesh",
+                    "UID": 1287277113
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 741467174,
+            "ParentUID": 741188690,
+            "Name": "City_building_001",
+            "Translation": [
+                17.707165,
+                20.053276,
+                0.000000
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Building_V02_C.dds",
+                    "UID": 428621437
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_001.mesh",
+                    "UID": 373411984
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 741606416,
+            "ParentUID": 741188690,
+            "Name": "City_building_007",
+            "Translation": [
+                16.010492,
+                37.493286,
+                -0.000002
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building_016_c.dds",
+                    "UID": 138217651
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_007.mesh",
+                    "UID": 83077819
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 741745658,
+            "ParentUID": 741188690,
+            "Name": "City_building_008",
+            "Translation": [
+                40.979996,
+                18.270828,
+                -0.000002
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                -0.000000,
+                0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building_025_c.dds",
+                    "UID": 1803241245
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_008.mesh",
+                    "UID": 1747683687
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 741884900,
+            "ParentUID": 741188690,
+            "Name": "Line002",
+            "Translation": [
+                -2.159772,
+                1.853838,
+                0.000000
+            ],
+            "Scale": [
+                1.000026,
+                1.000026,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                0.000000,
+                -0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Line002.mesh",
+                    "UID": 1227723902
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 0,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 742024142,
+            "ParentUID": 741188690,
+            "Name": "Plane001",
+            "Translation": [
+                -0.028603,
+                0.026032,
+                0
+            ],
+            "Scale": [
+                0.996635,
+                0.970616,
+                0.996635
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Plane001.mesh",
+                    "UID": 2047905001
+                }
+            ]
+        },
+        {
+            "UID": 742233005,
+            "ParentUID": 741188690,
+            "Name": "City_building_010",
+            "Translation": [
+                25.154011,
+                -39.153721,
+                0.000001
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                -0.000000,
+                0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 01_c.dds",
+                    "UID": 1024637360
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_010.mesh",
+                    "UID": 1014058987
+                },
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 01_c.dds",
+                    "UID": 1024637360
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_010.mesh",
+                    "UID": 1014058987
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 742372247,
+            "ParentUID": 741188690,
+            "Name": "City_building_011",
+            "Translation": [
+                30.134541,
+                37.493286,
+                -0.000002
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building_016_c.dds",
+                    "UID": 138217651
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_011.mesh",
+                    "UID": 102811535
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 742511489,
+            "ParentUID": 741188690,
+            "Name": "City_building_013",
+            "Translation": [
+                -42.288055,
+                33.201599,
+                0.000001
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                -0.000000,
+                0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 06_ c.dds",
+                    "UID": 1475435269
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_013.mesh",
+                    "UID": 1421409373
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 742650731,
+            "ParentUID": 741188690,
+            "Name": "City_building_014",
+            "Translation": [
+                -19.439707,
+                32.061729,
+                0.000004
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0,
+                -0.000000,
+                1,
+                0
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building03_c.dds",
+                    "UID": 1369917240
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_014.mesh",
+                    "UID": 1891148364
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 742789973,
+            "ParentUID": 741188690,
+            "Name": "City_building_016",
+            "Translation": [
+                34.270424,
+                -41.972733,
+                0.000005
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0,
+                -0.000000,
+                1,
+                0
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 01_c.dds",
+                    "UID": 1024637360
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_016.mesh",
+                    "UID": 757205150
+                },
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 01_c.dds",
+                    "UID": 1024637360
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_016.mesh",
+                    "UID": 757205150
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 742929215,
+            "ParentUID": 741188690,
+            "Name": "City_building_017",
+            "Translation": [
+                44.260082,
+                -39.153721,
+                0.000001
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                -0.000000,
+                0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 01_c.dds",
+                    "UID": 1024637360
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_017.mesh",
+                    "UID": 1560699026
+                },
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 01_c.dds",
+                    "UID": 1024637360
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_017.mesh",
+                    "UID": 1560699026
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 743068457,
+            "ParentUID": 741188690,
+            "Name": "City_building_022",
+            "Translation": [
+                -20.831324,
+                -27.426495,
+                -0.000001
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0,
+                -0.000000,
+                1,
+                0
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building05 _c.dds",
+                    "UID": 1098367782
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_022.mesh",
+                    "UID": 1048310283
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 743207699,
+            "ParentUID": 741188690,
+            "Name": "City_building_023",
+            "Translation": [
+                42.130642,
+                37.493286,
+                -0.000002
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building_016_c.dds",
+                    "UID": 138217651
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_023.mesh",
+                    "UID": 1856220288
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 743346941,
+            "ParentUID": 741188690,
+            "Name": "City_building_024",
+            "Translation": [
+                -20.572771,
+                43.060814,
+                -0.069194
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0,
+                -0.000000,
+                1,
+                0
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building_025_c.dds",
+                    "UID": 1803241245
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_024.mesh",
+                    "UID": 2056193617
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 743555804,
+            "ParentUID": 741188690,
+            "Name": "City_building_026",
+            "Translation": [
+                31.511889,
+                -16.446016,
+                0.000004
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0,
+                -0.000000,
+                1,
+                0
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building05 _c.dds",
+                    "UID": 1098367782
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_026.mesh",
+                    "UID": 1880770514
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 743695046,
+            "ParentUID": 741188690,
+            "Name": "City_building_028",
+            "Translation": [
+                13.387990,
+                -33.755039,
+                -0.000001
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Building_V01_C.dds",
+                    "UID": 1927508022
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_028.mesh",
+                    "UID": 1873760610
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 743834288,
+            "ParentUID": 741188690,
+            "Name": "Object010",
+            "Translation": [
+                -2.503353,
+                15.800846,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Object010.mesh",
+                    "UID": 431753778
+                }
+            ]
+        },
+        {
+            "UID": 743973530,
+            "ParentUID": 741188690,
+            "Name": "City_building_030",
+            "Translation": [
+                -42.807240,
+                -41.835564,
+                -0.000001
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                -0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Building_V01_C.dds",
+                    "UID": 1927508022
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_030.mesh",
+                    "UID": 922162017
+                }
+            ]
+        },
+        {
+            "UID": 744112772,
+            "ParentUID": 741188690,
+            "Name": "City_building_031",
+            "Translation": [
+                -34.679482,
+                -41.835556,
+                -0.000001
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                0.000000,
+                -0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Building_V01_C.dds",
+                    "UID": 1927508022
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_031.mesh",
+                    "UID": 1771536132
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 744252014,
+            "ParentUID": 741188690,
+            "Name": "City_building_032",
+            "Translation": [
+                -29.478403,
+                21.014091,
+                0.000000
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building03_c.dds",
+                    "UID": 1369917240
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_032.mesh",
+                    "UID": 842766005
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 744391256,
+            "ParentUID": 741188690,
+            "Name": "City_building_033",
+            "Translation": [
+                -32.361496,
+                42.370422,
+                0.000001
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 06_ c.dds",
+                    "UID": 1475435269
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_033.mesh",
+                    "UID": 1912166382
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 744530498,
+            "ParentUID": 741188690,
+            "Name": "City_building_034",
+            "Translation": [
+                16.049517,
+                -16.696886,
+                0.000000
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                0.000000,
+                -0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building05 _c.dds",
+                    "UID": 1098367782
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_034.mesh",
+                    "UID": 1426000854
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 744739361,
+            "ParentUID": 741188690,
+            "Name": "City_building_035",
+            "Translation": [
+                13.387990,
+                -40.802517,
+                0.000000
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.000000,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Building_V01_C.dds",
+                    "UID": 1927508022
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_035.mesh",
+                    "UID": 450584657
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 744878603,
+            "ParentUID": 741188690,
+            "Name": "City_building_036",
+            "Translation": [
+                -31.216331,
+                33.201599,
+                0.000001
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                0.000000,
+                -0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building 06_ c.dds",
+                    "UID": 1475435269
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_036.mesh",
+                    "UID": 1994521770
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 745017845,
+            "ParentUID": 741188690,
+            "Name": "City_building_037",
+            "Translation": [
+                -20.317694,
+                -16.163609,
+                0.000000
+            ],
+            "Scale": [
+                1,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0,
+                -0.000000,
+                1,
+                0
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building05 _c.dds",
+                    "UID": 1098367782
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_037.mesh",
+                    "UID": 1002211572
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 745157087,
+            "ParentUID": 741188690,
+            "Name": "City_building_038",
+            "Translation": [
+                -41.649002,
+                -16.495396,
+                0.000000
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                0.000000,
+                -0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/building05 _c.dds",
+                    "UID": 1098367782
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_038.mesh",
+                    "UID": 509432049
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 745296329,
+            "ParentUID": 741188690,
+            "Name": "City_building_039",
+            "Translation": [
+                -42.807240,
+                -30.643888,
+                -0.000001
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                -0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Building_V01_C.dds",
+                    "UID": 1927508022
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_039.mesh",
+                    "UID": 1854461965
+                }
+            ]
+        },
+        {
+            "UID": 745435571,
+            "ParentUID": 741188690,
+            "Name": "City_building_040",
+            "Translation": [
+                -34.679482,
+                -30.643875,
+                -0.000001
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                0.000000,
+                -0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Building_V01_C.dds",
+                    "UID": 1927508022
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_040.mesh",
+                    "UID": 38232951
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 745574813,
+            "ParentUID": 741188690,
+            "Name": "City_building_041",
+            "Translation": [
+                30.695278,
+                21.612638,
+                0.000000
+            ],
+            "Scale": [
+                1.000005,
+                1.000005,
+                1
+            ],
+            "Rotation": [
+                0.000000,
+                -0.000000,
+                0.707107,
+                0.707107
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Building_V02_C.dds",
+                    "UID": 428621437
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/City_building_041.mesh",
+                    "UID": 763542444
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 100,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 1395095533,
+            "ParentUID": 1019879101,
+            "Name": "BakerHouse_p2p",
+            "Translation": [
+                -12.512090,
+                9.999982,
+                0
+            ],
+            "Scale": [
+                0.999999,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 1395304396,
+            "ParentUID": 1395095533,
+            "Name": "Chimney",
+            "Translation": [
+                1.840261,
+                -2.664718,
+                -1.503116
+            ],
+            "Scale": [
+                1.000000,
+                1.000001,
+                1.000000
+            ],
+            "Rotation": [
+                0.280482,
+                0.353886,
+                0.724354,
+                0.520966
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Baker_house.dds",
+                    "UID": 2086977169
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Chimney.mesh",
+                    "UID": 1031911467
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 85.599998,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 1395443638,
+            "ParentUID": 1395095533,
+            "Name": "Baker_house",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Baker_house.dds",
+                    "UID": 2086977169
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Baker_house.mesh",
+                    "UID": 488236908
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 0,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 179778850,
+            "ParentUID": 1019879101,
+            "Name": "BakerHouse_Hinge",
+            "Translation": [
+                -5.846423,
+                9.999980,
+                0
+            ],
+            "Scale": [
+                0.999996,
+                0.999997,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 179987713,
+            "ParentUID": 179778850,
+            "Name": "Chimney",
+            "Translation": [
+                -2.267506,
+                6.601369,
+                -0.671577
+            ],
+            "Scale": [
+                1,
+                0.999998,
+                1.000003
+            ],
+            "Rotation": [
+                0.750785,
+                0,
+                0,
+                0.660547
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Baker_house.dds",
+                    "UID": 2086977169
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Chimney.mesh",
+                    "UID": 1031911467
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 85.599998,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 180126955,
+            "ParentUID": 179778850,
+            "Name": "Baker_house",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Baker_house.dds",
+                    "UID": 2086977169
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Baker_house.mesh",
+                    "UID": 488236908
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 0,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 620922285,
+            "ParentUID": 1019879101,
+            "Name": "BakerHouse_Slider",
+            "Translation": [
+                0.953186,
+                10,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 621131148,
+            "ParentUID": 620922285,
+            "Name": "Chimney",
+            "Translation": [
+                -1.902081,
+                6.418139,
+                -1.478538
+            ],
+            "Scale": [
+                0.999995,
+                0.999993,
+                0.999998
+            ],
+            "Rotation": [
+                -0.097901,
+                -0.002698,
+                -0.007546,
+                0.995164
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Baker_house.dds",
+                    "UID": 2086977169
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Chimney.mesh",
+                    "UID": 1031911467
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 85.599998,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 621270390,
+            "ParentUID": 620922285,
+            "Name": "Baker_house",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Baker_house.dds",
+                    "UID": 2086977169
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Baker_house.mesh",
+                    "UID": 488236908
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 0,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 33197577,
+            "ParentUID": 1019879101,
+            "Name": "BakerHouse_Cone",
+            "Translation": [
+                7.912078,
+                9.999973,
+                0
+            ],
+            "Scale": [
+                0.999999,
+                0.999999,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 33406440,
+            "ParentUID": 33197577,
+            "Name": "Chimney",
+            "Translation": [
+                0.783547,
+                -4.805232,
+                -2.576407
+            ],
+            "Scale": [
+                1.000000,
+                1.000000,
+                1.000000
+            ],
+            "Rotation": [
+                0.600720,
+                0.738473,
+                0.305487,
+                0.021701
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Baker_house.dds",
+                    "UID": 2086977169
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Chimney.mesh",
+                    "UID": 1031911467
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 85.599998,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "UID": 33545682,
+            "ParentUID": 33197577,
+            "Name": "Baker_house",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "texture",
+                    "Path": "Assets\/library\/Baker_house.dds",
+                    "UID": 2086977169
+                },
+                {
+                    "Type": "Mesh",
+                    "Path": "Assets\/library\/Baker_house.mesh",
+                    "UID": 488236908
+                },
+                {
+                    "Type": "Collider",
+                    "Sensor": 0,
+                    "ColliderType": "Box",
+                    "Mass": 0,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

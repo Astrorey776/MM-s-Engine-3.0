@@ -1,0 +1,98 @@
+{
+    "Game Objects": [
+        {
+            "UID": 1741793294,
+            "ParentUID": 0,
+            "Name": "GameObject2",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 1764280877,
+            "ParentUID": 1741793294,
+            "Name": "Box001_$AssimpFbx$_Translation",
+            "Translation": [
+                -41129.742188,
+                0,
+                38077.773438
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 1784679830,
+            "ParentUID": 1764280877,
+            "Name": "Box001_$AssimpFbx$_PreRotation",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                -0.707107,
+                0,
+                0,
+                0.707107
+            ],
+            "Components": []
+        },
+        {
+            "UID": 1804521815,
+            "ParentUID": 1784679830,
+            "Name": "Box001",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "Mesh",
+                    "Resource UID": 1811275052,
+                    "Path": "Assets\/library\/Box001.mesh"
+                }
+            ]
+        }
+    ]
+}

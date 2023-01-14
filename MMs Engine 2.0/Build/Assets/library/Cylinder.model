@@ -1,0 +1,98 @@
+{
+    "Game Objects": [
+        {
+            "UID": 694500418,
+            "ParentUID": 0,
+            "Name": "GameObject1",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 742469287,
+            "ParentUID": 694500418,
+            "Name": "Cylinder001_$AssimpFbx$_Translation",
+            "Translation": [
+                -41130.335938,
+                0,
+                38079.578125
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": []
+        },
+        {
+            "UID": 793362238,
+            "ParentUID": 742469287,
+            "Name": "Cylinder001_$AssimpFbx$_PreRotation",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                -0.707107,
+                0,
+                0,
+                0.707107
+            ],
+            "Components": []
+        },
+        {
+            "UID": 833881660,
+            "ParentUID": 793362238,
+            "Name": "Cylinder001",
+            "Translation": [
+                0,
+                0,
+                0
+            ],
+            "Scale": [
+                1,
+                1,
+                1
+            ],
+            "Rotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "Components": [
+                {
+                    "Type": "Mesh",
+                    "Resource UID": 852888193,
+                    "Path": "Assets\/library\/Cylinder001.mesh"
+                }
+            ]
+        }
+    ]
+}

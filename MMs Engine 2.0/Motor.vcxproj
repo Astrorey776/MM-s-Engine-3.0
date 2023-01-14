@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}</ProjectGuid>
+    <RootNamespace>SDLGame</RootNamespace>
+    <ProjectName>MMsEngine</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\Application.h" />
+    <ClInclude Include="SourceCode\Color.h" />
+    <ClInclude Include="SourceCode\FBXloader.h" />
+    <ClInclude Include="SourceCode\FileSystem.h" />
+    <ClInclude Include="SourceCode\GameObject.h" />
+    <ClInclude Include="SourceCode\glmath.h" />
+    <ClInclude Include="SourceCode\Globals.h" />
+    <ClInclude Include="SourceCode\imconfig.h" />
+    <ClInclude Include="SourceCode\ImCurveEdit.h" />
+    <ClInclude Include="SourceCode\ImGradient.h" />
+    <ClInclude Include="SourceCode\imgui.h" />
+    <ClInclude Include="SourceCode\ImGuizmo.h" />
+    <ClInclude Include="SourceCode\imgui_impl_opengl3.h" />
+    <ClInclude Include="SourceCode\imgui_impl_sdl.h" />
+    <ClInclude Include="SourceCode\imgui_internal.h" />
+    <ClInclude Include="SourceCode\ImSequencer.h" />
+    <ClInclude Include="SourceCode\imstb_rectpack.h" />
+    <ClInclude Include="SourceCode\imstb_textedit.h" />
+    <ClInclude Include="SourceCode\imstb_truetype.h" />
+    <ClInclude Include="SourceCode\Light.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Algorithm\Random\LCG.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\AABB.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\AABB2D.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Capsule.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Circle.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Cone.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Cylinder.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Frustum.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\GeometryAll.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\GeomType.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\HitInfo.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\KDTree.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Line.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\LineSegment.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\OBB.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\PBVolume.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Plane.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Polygon.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Polyhedron.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\QuadTree.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Ray.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Sphere.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\Triangle.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Geometry\TriangleMesh.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\MathBuildConfig.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\MathGeoLib.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\MathGeoLibFwd.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\assume.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\BitOps.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\Complex.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\CoordinateAxisConvention.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\FixedPoint.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float2.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float3.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float3x3.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float3x4.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float4.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float4x4.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float4x4_neon.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float4x4_sse.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float4_neon.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\float4_sse.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\FloatCmp.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\MathAll.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\MathConstants.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\MathFunc.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\MathLog.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\MathNamespace.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\MathTypes.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\MatrixProxy.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\myassert.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\Polynomial.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\Quat.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\quat_simd.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\Rect.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\Reinterpret.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\SSEMath.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\sse_mathfun.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Math\TransformOps.h" />
+    <ClInclude Include="SourceCode\MathGeoLib\include\Time\Clock.h" />
+    <ClInclude Include="SourceCode\Module.h" />
+    <ClInclude Include="SourceCode\ModuleCamera3D.h" />
+    <ClInclude Include="SourceCode\ModuleInput.h" />
+    <ClInclude Include="SourceCode\ModulePhysics3D.h" />
+    <ClInclude Include="SourceCode\ModulePlayer.h" />
+    <ClInclude Include="SourceCode\ModuleRenderer3D.h" />
+    <ClInclude Include="SourceCode\ModuleSceneIntro.h" />
+    <ClInclude Include="SourceCode\ModuleUI.h" />
+    <ClInclude Include="SourceCode\ModuleWindow.h" />
+    <ClInclude Include="SourceCode\MousePicking.h" />
+    <ClInclude Include="SourceCode\parson\parson.h" />
+    <ClInclude Include="SourceCode\PhysBody3D.h" />
+    <ClInclude Include="SourceCode\PhysVehicle3D.h" />
+    <ClInclude Include="SourceCode\Primitive.h" />
+    <ClInclude Include="SourceCode\PrimitiveManager.h" />
+    <ClInclude Include="SourceCode\ResourceManager.h" />
+    <ClInclude Include="SourceCode\serializer.h" />
+    <ClInclude Include="SourceCode\Time.h" />
+    <ClInclude Include="SourceCode\Timer.h" />
+    <ClInclude Include="SourceCode\Vec2.h" />
+    <ClInclude Include="SourceCode\Win_AboutMenu.h" />
+    <ClInclude Include="SourceCode\Win_CameraConfig.h" />
+    <ClInclude Include="SourceCode\Win_Configuration.h" />
+    <ClInclude Include="SourceCode\Win_Folder.h" />
+    <ClInclude Include="SourceCode\Win_Hierarchy.h" />
+    <ClInclude Include="SourceCode\Win_Inspector.h" />
+    <ClInclude Include="SourceCode\Win_TimeManagement.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\Application.cpp" />
+    <ClCompile Include="SourceCode\Color.cpp" />
+    <ClCompile Include="SourceCode\FBXloader.cpp" />
+    <ClCompile Include="SourceCode\FileSystem.cpp" />
+    <ClCompile Include="SourceCode\GameObject.cpp" />
+    <ClCompile Include="SourceCode\glmath.cpp" />
+    <ClCompile Include="SourceCode\ImCurveEdit.cpp" />
+    <ClCompile Include="SourceCode\ImGradient.cpp" />
+    <ClCompile Include="SourceCode\imgui.cpp" />
+    <ClCompile Include="SourceCode\ImGuizmo.cpp" />
+    <ClCompile Include="SourceCode\imgui_demo.cpp" />
+    <ClCompile Include="SourceCode\imgui_draw.cpp" />
+    <ClCompile Include="SourceCode\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="SourceCode\imgui_impl_sdl.cpp" />
+    <ClCompile Include="SourceCode\imgui_widgets.cpp" />
+    <ClCompile Include="SourceCode\ImSequencer.cpp" />
+    <ClCompile Include="SourceCode\Light.cpp" />
+    <ClCompile Include="SourceCode\log.cpp" />
+    <ClCompile Include="SourceCode\Main.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Algorithm\Random\LCG.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\AABB.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Capsule.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Circle.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Cone.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Cylinder.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Frustum.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Line.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\LineSegment.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\OBB.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Plane.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Polygon.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Polyhedron.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Ray.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Sphere.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\Triangle.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Geometry\TriangleMesh.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\BitOps.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\float2.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\float3.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\float3x3.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\float3x4.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\float4.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\float4x4.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\MathFunc.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\MathLog.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\MathOps.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\Polynomial.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\Quat.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\SSEMath.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Math\TransformOps.cpp" />
+    <ClCompile Include="SourceCode\MathGeoLib\include\Time\Clock.cpp" />
+    <ClCompile Include="SourceCode\ModuleCamera3D.cpp" />
+    <ClCompile Include="SourceCode\ModuleInput.cpp" />
+    <ClCompile Include="SourceCode\ModulePhysics3D.cpp" />
+    <ClCompile Include="SourceCode\ModulePlayer.cpp" />
+    <ClCompile Include="SourceCode\ModuleRenderer3D.cpp" />
+    <ClCompile Include="SourceCode\ModuleSceneIntro.cpp" />
+    <ClCompile Include="SourceCode\ModuleUi.cpp" />
+    <ClCompile Include="SourceCode\ModuleWindow.cpp" />
+    <ClCompile Include="SourceCode\MousePicking.cpp" />
+    <ClCompile Include="SourceCode\parson\parson.c" />
+    <ClCompile Include="SourceCode\PhysBody3D.cpp" />
+    <ClCompile Include="SourceCode\PhysVehicle3D.cpp" />
+    <ClCompile Include="SourceCode\Primitive.cpp" />
+    <ClCompile Include="SourceCode\PrimitiveManager.cpp" />
+    <ClCompile Include="SourceCode\ResourceManager.cpp" />
+    <ClCompile Include="SourceCode\serializer.cpp" />
+    <ClCompile Include="SourceCode\Time.cpp" />
+    <ClCompile Include="SourceCode\Timer.cpp" />
+    <ClCompile Include="SourceCode\Vec2.cpp" />
+    <ClCompile Include="SourceCode\Win_AboutMenu.cpp" />
+    <ClCompile Include="SourceCode\Win_CameraConfig.cpp" />
+    <ClCompile Include="SourceCode\Win_Configuration.cpp" />
+    <ClCompile Include="SourceCode\Win_Folder.cpp" />
+    <ClCompile Include="SourceCode\Win_Hierarchy.cpp" />
+    <ClCompile Include="SourceCode\Win_Inspector.cpp" />
+    <ClCompile Include="SourceCode\Win_TimeManagement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="SourceCode\imgui.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SourceCode\MathGeoLib\include\Geometry\KDTree.inl" />
+    <None Include="SourceCode\MathGeoLib\include\Geometry\QuadTree.inl" />
+    <None Include="SourceCode\MathGeoLib\include\Geometry\TriangleMesh_IntersectRay_AVX.inl" />
+    <None Include="SourceCode\MathGeoLib\include\Geometry\TriangleMesh_IntersectRay_CPP.inl" />
+    <None Include="SourceCode\MathGeoLib\include\Geometry\TriangleMesh_IntersectRay_SSE.inl" />
+    <None Include="SourceCode\MathGeoLib\include\Math\Matrix.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
