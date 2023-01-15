@@ -33,15 +33,52 @@ void Win_AboutMenu::Update_Ui(bool show_windoww)
 
 		ImGui::Separator();
 		ImGui::Text("Libraries used");
-		ImGui::BulletText("SDL 2.0");
-		ImGui::BulletText("SDL Mixer 2.0");
-		ImGui::BulletText("Cereal 1.2.2");
-		ImGui::BulletText("Glew 2.0.0");
-		ImGui::BulletText("ImGui 1.78");
-		ImGui::BulletText("MathGeoLib 1.5");
-		ImGui::BulletText("OpenGL 3.1");
-		ImGui::BulletText("Assimp 3.1.1");
-		ImGui::BulletText("Devil 1.7.8");
+
+		if (ImGui::Button("SDL"))
+		{
+			ShellExecuteA(NULL, "open", "https://www.libsdl.org/", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("SDL Mixer"))
+		{
+			ShellExecuteA(NULL, "open", "https://github.com/libsdl-org/SDL_mixer", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("Glew"))
+		{
+			ShellExecuteA(NULL, "open", "https://glew.sourceforge.net/", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("ImGui"))
+		{
+			ShellExecuteA(NULL, "open", "https://github.com/ocornut/imgui", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("MathGeoLib"))
+		{
+			ShellExecuteA(NULL, "open", "https://github.com/juj/MathGeoLib", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("OpenGL"))
+		{
+			ShellExecuteA(NULL, "open", "https://www.opengl.org/", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("Assimp"))
+		{
+			ShellExecuteA(NULL, "open", "https://github.com/assimp/assimp", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("Devil"))
+		{
+			ShellExecuteA(NULL, "open", "https://openil.sourceforge.net/", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("GlMath"))
+		{
+			ShellExecuteA(NULL, "open", "https://glmath.sourceforge.net/", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("Bullet"))
+		{
+			ShellExecuteA(NULL, "open", "https://github.com/bulletphysics/bullet3", NULL, NULL, SW_SHOWNORMAL);
+		}
+		if (ImGui::Button("PhysFS"))
+		{
+			ShellExecuteA(NULL, "open", "https://github.com/icculus/physfs", NULL, NULL, SW_SHOWNORMAL);
+		}
+
 		ImGui::Separator();
 		ImGui::Text("License:");
 		ImGui::Text("MIT License");
