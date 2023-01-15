@@ -54,7 +54,7 @@
     "Game Objects": [
         {
             "UID": 740074754,
-            "ParentUID": 1499383885,
+            "ParentUID": 379268380,
             "Name": "StreetEnvironment",
             "Translation": [
                 0,
@@ -1807,7 +1807,7 @@
         },
         {
             "UID": 1395095533,
-            "ParentUID": 1499383885,
+            "ParentUID": 379268380,
             "Name": "BakerHouse_p2p",
             "Translation": [
                 -12.512090,
@@ -1832,14 +1832,14 @@
             "ParentUID": 1395095533,
             "Name": "Chimney",
             "Translation": [
-                1.840261,
+                1.840260,
                 -2.664716,
                 -1.503116
             ],
             "Scale": [
                 1.000000,
                 1.000001,
-                1.000000
+                1
             ],
             "Rotation": [
                 0.280482,
@@ -1939,7 +1939,7 @@
         },
         {
             "UID": 179778850,
-            "ParentUID": 1499383885,
+            "ParentUID": 379268380,
             "Name": "BakerHouse_Hinge",
             "Translation": [
                 -5.846423,
@@ -2071,7 +2071,7 @@
         },
         {
             "UID": 620922285,
-            "ParentUID": 1499383885,
+            "ParentUID": 379268380,
             "Name": "BakerHouse_Slider",
             "Translation": [
                 0.953186,
@@ -2098,7 +2098,7 @@
             "Translation": [
                 -1.902081,
                 6.418135,
-                -1.478537
+                -1.478538
             ],
             "Scale": [
                 0.999995,
@@ -2203,7 +2203,7 @@
         },
         {
             "UID": 33197577,
-            "ParentUID": 1499383885,
+            "ParentUID": 379268380,
             "Name": "BakerHouse_Cone",
             "Translation": [
                 7.912078,
@@ -2228,13 +2228,13 @@
             "ParentUID": 33197577,
             "Name": "Chimney",
             "Translation": [
-                0.783549,
+                0.783548,
                 -4.805233,
-                -2.576406
+                -2.576407
             ],
             "Scale": [
                 1.000000,
-                1.000000,
+                1,
                 1.000000
             ],
             "Rotation": [
