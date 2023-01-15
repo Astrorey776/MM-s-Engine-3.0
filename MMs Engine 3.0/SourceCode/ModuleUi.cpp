@@ -188,7 +188,7 @@ update_status ModuleUI::Update(float dt)
 	{
 
 		if (ImGui::MenuItem("Documentation"))
-			ShellExecuteA(NULL, "open", "https://github.com/Astrorey776/MM-s-Engine-2.0", NULL, NULL, SW_SHOWNORMAL);
+			ShellExecuteA(NULL, "open", "https://github.com/Astrorey776/MM-s-Engine-3.0", NULL, NULL, SW_SHOWNORMAL);
 
 		if (ImGui::MenuItem("About"))
 			show_About = true;

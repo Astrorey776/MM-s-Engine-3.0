@@ -20,7 +20,7 @@ void Win_AboutMenu::Update_Ui(bool show_windoww)
 	{
 
 		ImGui::Begin("Info", &show_windoww);
-		ImGui::Text("MM's Engine 2.0"); //ImGui::SameLine(); ImGui::Text("Nidhogg engine ");
+		ImGui::Text("MM's Engine 3.0"); //ImGui::SameLine(); ImGui::Text("Nidhogg engine ");
 		ImGui::Text("");
 		ImGui::TextWrapped("An engine made by a student of the 'Centre de la Imatge i de la Tecnologia Multimedia (CITM)'");
 		ImGui::Text("");
@@ -45,7 +45,7 @@ void Win_AboutMenu::Update_Ui(bool show_windoww)
 		ImGui::Separator();
 		ImGui::Text("License:");
 		ImGui::Text("MIT License");
-		ImGui::TextWrapped("Copyright 2020 Pol de la Torre Solé & Albert Garcia Belerda ");
+		ImGui::TextWrapped("Copyright 2023 Adrian Martin Murillo ");
 		ImGui::TextWrapped("Permission is hereby granted, free of charge, to any person obtaining a copy");
 		ImGui::TextWrapped("of this softwareand associated documentation files(the Software), to deal");
 		ImGui::TextWrapped("in the Software without restriction, including without limitation the rights ");
