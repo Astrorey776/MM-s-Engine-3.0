@@ -54,7 +54,7 @@
     "Game Objects": [
         {
             "UID": 740074754,
-            "ParentUID": 1763589322,
+            "ParentUID": 1615896937,
             "Name": "StreetEnvironment",
             "Translation": [
                 0,
@@ -1807,7 +1807,7 @@
         },
         {
             "UID": 1395095533,
-            "ParentUID": 1763589322,
+            "ParentUID": 1615896937,
             "Name": "BakerHouse_p2p",
             "Translation": [
                 -12.512090,
@@ -1939,7 +1939,7 @@
         },
         {
             "UID": 179778850,
-            "ParentUID": 1763589322,
+            "ParentUID": 1615896937,
             "Name": "BakerHouse_Hinge",
             "Translation": [
                 -5.846423,
@@ -2071,7 +2071,7 @@
         },
         {
             "UID": 620922285,
-            "ParentUID": 1763589322,
+            "ParentUID": 1615896937,
             "Name": "BakerHouse_Slider",
             "Translation": [
                 0.953186,
@@ -2203,7 +2203,7 @@
         },
         {
             "UID": 33197577,
-            "ParentUID": 1763589322,
+            "ParentUID": 1615896937,
             "Name": "BakerHouse_Cone",
             "Translation": [
                 7.912078,
@@ -2228,13 +2228,13 @@
             "ParentUID": 33197577,
             "Name": "Chimney",
             "Translation": [
-                0.783548,
+                0.783549,
                 -4.805232,
-                -2.576407
+                -2.576406
             ],
             "Scale": [
                 1.000000,
-                1,
+                1.000000,
                 1.000000
             ],
             "Rotation": [

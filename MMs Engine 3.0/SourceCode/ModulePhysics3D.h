@@ -31,8 +31,8 @@ public:
 	update_status Update(float dt);
 	bool CleanUp();
 
-	void AddBodyToWorld(btRigidBody* body);
-	void RemoveBodyFromWorld(btRigidBody* body);
+	void AddBody(btRigidBody* body);
+	void RemoveBody(btRigidBody* body);
 
 	//PhysBody3D* RayCast(const vec3& Origin, const vec3& Direction, vec3& HitPoint = vec3());
 

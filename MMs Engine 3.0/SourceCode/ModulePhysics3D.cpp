@@ -201,12 +201,12 @@ bool ModulePhysics3D::CleanUp()
 //	return nullptr;
 //}
 
-void ModulePhysics3D::AddBodyToWorld(btRigidBody * body)
+void ModulePhysics3D::AddBody(btRigidBody * body)
 {
 	world->addRigidBody(body);
 }
 
-void ModulePhysics3D::RemoveBodyFromWorld(btRigidBody * body)
+void ModulePhysics3D::RemoveBody(btRigidBody * body)
 {
 	world->removeRigidBody(body);
 }

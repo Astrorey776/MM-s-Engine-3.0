@@ -24,7 +24,7 @@ PhysBody3D::~PhysBody3D()
 {
 	if (HasBody() == true)
 	{
-		App->Physics->RemoveBodyFromWorld(body);
+		App->Physics->RemoveBody(body);
 		delete body;
 		delete colShape;
 		delete motionState;
@@ -276,7 +276,7 @@ void PhysBody3D::SetBody(btCollisionShape * shape, Primitive* parent, float mass
 
 	body->setUserPointer(this);
 
-	App->Physics->AddBodyToWorld(body);
+	App->Physics->AddBody(body);
 }
 
 void PhysBody3D::SetBody(btCollisionShape* shape, GameObject* parent, float mass)
@@ -332,7 +332,7 @@ void PhysBody3D::SetBody(btCollisionShape* shape, GameObject* parent, float mass
 
 	body->setUserPointer(this);
 
-	App->Physics->AddBodyToWorld(body);
+	App->Physics->AddBody(body);
 	
 }
 const vec3 PhysBody3D::GetPos() const
